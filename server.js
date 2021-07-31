@@ -1,8 +1,8 @@
-let userinfo = ["whiter", "temp1234"];//["username", "password"]
+let userinfo = ["haveabrick", "brick5"];//["username", "password"]
 
 
 
-//You're thicc teddy 😳
+//Who we fucking up?? 👀
 
 
 (async ()=>{
