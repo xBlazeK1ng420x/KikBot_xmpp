@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>I was too lazy to change the title</title>
+    <meta
+      name="description"
+      content="I was too lazy to change the description."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <div
+        class="flex flex-wrap overflow-hidden justify-center bg-gray-800 text-white h-screen"
+      >
+        <div
+          class="flex w-full justify-center"
+          style="height: 85%"
+        >
+          <!-- Column Content -->
+          <div class="h-full max-w-5xl -mx-2 justify-center">
+            <h3 class="w-full mx-auto text-center text-xl font-extrabold">
+              PASTE STANZA BELOW
+            </h3>
+            <textarea
+              id="theStanza"
+              class="rounded-lg px-4 pt-4 px-6 w-full bg-gray-500"
+              style="height: 75%"
+            ></textarea>
+            <input
+              id="theTimes"
+              type="text"
+              class="w-full py-4 my-2 px-6 rounded-lg bg-gray-500"
+              onfocus="if(this.value==this.defaultValue)this.value='';"
+              onblur="if(this.value=='')this.value=this.defaultValue;"
+              value="times to loop"
+            />
+            <input
+              id="theVictim"
+              type="text"
+              class="w-full py-4 my-2 px-6 rounded-lg bg-gray-500"
+              onfocus="if(this.value==this.defaultValue)this.value='';"
+              onblur="if(this.value=='')this.value=this.defaultValue;"
+              value="Victims Jid"
+            />
+                      <!-- Column Content -->
+          <button
+            class="bg-blue-500 p-2 rounded-lg mx-auto ml-4 mb-auto -py-24"
+            onclick="sendStanza()"
+          >
+            Send
+          </button>
+          </div>
+        </div>
+<!--         <div class="flex w-full overflow-hidden px-auto justify-center -mt-12">
+          <button
+            class="bg-blue-500 p-2 rounded-lg mx-auto mb-auto -py-24"
+            onclick="sendStanza()"
+          >
+            Send
+          </button>
+        </div> -->
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
