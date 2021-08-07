@@ -1,4 +1,4 @@
-let userinfo = ["haveabrick5", "brick5"]; //["username", "password"]
+let userinfo = ["user", "pass"]; //["username", "password"]
 
 //Who we fucking up?? 👀
 
