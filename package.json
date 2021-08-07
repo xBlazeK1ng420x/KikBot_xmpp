@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "kik-node-api": "github:nanofuxion/kik-node-api",
+    "kik-node-api": "git@github.com:xBlazeK1ng420x/kik-node-api.git",
     "unescape": "^1.0.1",
     "express-validator": "^6.12.1",
     "express-graphql": "^0.12.0"
