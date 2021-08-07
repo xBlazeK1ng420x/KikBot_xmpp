@@ -12,13 +12,13 @@ body {
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: #00802b;
   max-width: calc(100% - 5rem);
   line-height: 1.1;
 }
 
 form {
-  background-color: #eee;
+  background-color: #00802b;
   display: grid;
   grid-gap: 1em;
   padding: 1em;
@@ -26,7 +26,7 @@ form {
 }
 
 input {
-  border: 1px solid silver;
+  border: 1px solid Purple;
   display: block;
   font-size: 16px;
   margin-bottom: 10px;
@@ -35,22 +35,23 @@ input {
 }
 
 form button {
-  background-color: #bbbbf2;
+  background-color: #00802b;
   border: 2px solid currentColor;
-  border-radius: .25em;
+  border-radius: 1.25em;
   cursor: pointer;
   font-size: inherit;
   line-height: 1.4em;
-  padding: 0.25em 1em;
-  max-width: 20ch;
+  padding: 5em 10em;
+  max-width: 125ch;
+  margin-top: 2px;
 }
 
 form button:hover {
-  background-color: lavender;
+  background-color: lightgreen;
 }
 
 footer {
   margin-top: 3em;
   padding-top: 1.5em;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid lightgreen;
 }

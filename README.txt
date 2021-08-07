@@ -1,8 +1,3 @@
-Kik bot for looping raw xmpp stanzas.
-
-
-
-
 # hello-express
 
 A server that serves a webpage, its resources, and some data
@@ -32,4 +27,4 @@ Click `Show` in the header to see your app live. Updates to your code will insta
 
 Find out more [about Glitch](https://glitch.com/about).
 
-( ᵔ ᴥ ᵔ 
+( ᵔ ᴥ ᵔ )
